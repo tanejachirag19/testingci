@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout Code
-      uses: actions/checkout
+      uses: aactions/checkout@v4.1.6
 
     - name: Set up SSH
       run: |
